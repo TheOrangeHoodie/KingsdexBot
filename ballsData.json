@@ -9,7 +9,8 @@
         "name": "Supreme"
     },
     "4": {
-        "name": ["Child", "Annihilator", "Child Annihilator"]
+        "name": ["child", "annihilator", "child annihilator"],
+        "display": "Child Annihilator"
     },
     "5": {
         "name": "Betty"
