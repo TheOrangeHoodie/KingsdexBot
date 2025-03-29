@@ -1,38 +1,65 @@
 [
     {
         "id": 1,
-        "aliases": ["vol", "averagevol"],
+        "aliases": [
+            "vol",
+            "averagevol"
+        ],
         "filePath": "./balls/Vol.png",
+        "emoji": "<:vol:1350831295936204831>",
         "displayName": "Vol"
     },
     {
         "id": 2,
-        "aliases": ["bored", "sleepisnow"],
+        "aliases": [
+            "bored",
+            "sleepisnow"
+        ],
         "filePath": "./balls/Bored.png",
+        "emoji": "<:bored:1350831356812201984>",
         "displayName": "Bored"
     },
     {
         "id": 3,
-        "aliases": ["supreme", "orange", "theorangehoodie", "hoodie"],
+        "aliases": [
+            "supreme",
+            "orange",
+            "theorangehoodie",
+            "hoodie"
+        ],
         "filePath": "./balls/Supreme.png",
+        "emoji": "<:orangehoodie:1350831412655423598>",
         "displayName": "TheOrangeHoodie"
     },
     {
         "id": 4,
-        "aliases": ["child", "annihilator", "child annihilator"],
+        "aliases": [
+            "child",
+            "annihilator",
+            "child annihilator"
+        ],
         "filePath": "./balls/Child.png",
+        "emoji": "<:childannihilator:1350831460881530972>",
         "displayName": "Child Annihilator"
     },
     {
         "id": 5,
-        "aliases": ["betty"],
+        "aliases": [
+            "betty"
+        ],
         "filePath": "./balls/Betty.png",
+        "emoji": "<:betty:1351226202089721928>",
         "displayName": "Betty"
     },
     {
         "id": 6,
-        "aliases": ["admiral", "podushka", "admiral podushka"],
+        "aliases": [
+            "admiral",
+            "podushka",
+            "admiral podushka"
+        ],
         "filePath": "./balls/Admiral.png",
+        "emoji": "<:admiral:1351227206717935706>",
         "displayName": "Admiral Podushka"
     }
 ]

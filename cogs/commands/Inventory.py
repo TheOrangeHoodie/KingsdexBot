@@ -1,5 +1,7 @@
 import nextcord
 from nextcord.ext import commands
+from dataManager import get_player_data
+from ballHandler import get_ball_by_id, get_config
 
 class Inventory(commands.Cog):
 
@@ -9,14 +11,25 @@ class Inventory(commands.Cog):
 
     @nextcord.slash_command(name="collection", description="Check your collection", guild_ids=[1349739992926130248])
     async def collection(self, interaction : nextcord.Interaction):
+        ownedBalls = get_player_data(interaction.user.id)["balls"]
+        allBalls = get_config()
+
+        ownedEmojis = []
+        notOwnedEmojis = []
+        for ballData in allBalls:
+            if ballData["id"] in ownedBalls:
+                ownedEmojis.append(ballData["emoji"])
+            else:
+                notOwnedEmojis.append(ballData["emoji"])
+
         embed = nextcord.Embed(
             description=f"""
             __**Owned Kingsballs**__
-            Kingsdex Progression: 69.9%
-            <:orangehoodie:1350831412655423598><:vol:1350831295936204831>
+            Kingsdex Progression: {round((len(ownedEmojis) / (len(ownedEmojis) + len(notOwnedEmojis))) * 100, 1)}%
+            {"".join(ownedEmojis)}
 
             __**Missing Kingsballs**__
-            <:bored:1350831356812201984><:childannihilator:1350831460881530972><:betty:1351226202089721928><:admiral:1351227206717935706>
+            {"".join(notOwnedEmojis)}
             """
         )
 

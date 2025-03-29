@@ -27,6 +27,16 @@ def get_ball():
             break
 
     return selectedBall
+
+def get_ball_by_id(id):
+    for ball in ballsConfig:
+        if ball["id"] == id:
+            return ball
+        
+    return None
+
+def get_config():
+    return ballsConfig
         
     
 
