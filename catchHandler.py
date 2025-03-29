@@ -22,14 +22,22 @@ class CatchModal(nextcord.ui.Modal):
             self.button.disabled = True
 
             data = get_player_data(interaction.user.id)
+
             if data.get("balls") == None:
                 data["balls"] = []
+
+            isNew = not self.ball["id"] in data["balls"]
+
             data["balls"].append(self.ball["id"])
+
             update_player_data(interaction.user.id, data)
 
             await interaction.response.edit_message(view=self.view)
-            return await interaction.followup.send(f"{interaction.user.mention} you caught **{self.ball["displayName"]}** \n(This is a **new ball** that has been added to your collection!)")
-            
+            if isNew:
+                return await interaction.followup.send(f"{interaction.user.mention} you caught **{self.ball["displayName"]}** `#{self.ball["id"]}` \n(This is a **new ball** that has been added to your collection!)")
+            else:
+                return await interaction.followup.send(f"{interaction.user.mention} you caught **{self.ball["displayName"]}** `#{self.ball["id"]}`")
+
         return await interaction.response.send_message("Wrong name!")
 
 class CatchView(nextcord.ui.View):
