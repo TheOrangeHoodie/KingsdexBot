@@ -3,6 +3,7 @@ import nextcord
 import dotenv
 from nextcord.ext import commands
 from os import walk
+import asyncio
 
 env = dotenv.dotenv_values("./.env")
 
@@ -17,11 +18,15 @@ def loadCogs():
                 extensionPath = root.replace("/", ".").replace("\\", ".")[2:] + "." + file[:-3]
                 bot.load_extension(extensionPath)
 
+
 @bot.event
 async def on_ready():
-    loadCogs()
     print("Logged in as: " + bot.user.name)
 
 
+async def start():
+    loadCogs()
 
-bot.run(env["TOKEN"])
+    await bot.start(env["TOKEN"])
+
+asyncio.run(start())

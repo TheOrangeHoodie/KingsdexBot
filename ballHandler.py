@@ -12,7 +12,7 @@ lastSent = time.time()
 def check_stamp():
     global lastSent
 
-    if time.time() - lastSent > 10:
+    if time.time() - lastSent > 60 * 10:
         lastSent = time.time()
         return True
     else:
