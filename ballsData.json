@@ -1,32 +1,38 @@
-{
-    "1": {
+[
+    {
+        "id": 1,
         "aliases": ["vol", "averagevol"],
         "filePath": "./balls/Vol.png",
         "displayName": "Vol"
     },
-    "2": {
+    {
+        "id": 2,
         "aliases": ["bored", "sleepisnow"],
         "filePath": "./balls/Bored.png",
         "displayName": "Bored"
     },
-    "3": {
+    {
+        "id": 3,
         "aliases": ["supreme", "orange", "theorangehoodie", "hoodie"],
         "filePath": "./balls/Supreme.png",
         "displayName": "TheOrangeHoodie"
     },
-    "4": {
+    {
+        "id": 4,
         "aliases": ["child", "annihilator", "child annihilator"],
         "filePath": "./balls/Child.png",
         "displayName": "Child Annihilator"
     },
-    "5": {
+    {
+        "id": 5,
         "aliases": ["betty"],
         "filePath": "./balls/Betty.png",
         "displayName": "Betty"
     },
-    "6": {
+    {
+        "id": 6,
         "aliases": ["admiral", "podushka", "admiral podushka"],
         "filePath": "./balls/Admiral.png",
         "displayName": "Admiral Podushka"
     }
-}
+]

@@ -11,7 +11,7 @@ lastSent = time.time()
 
 def check_stamp():
     global lastSent
-    print(int(time.time() - lastSent))
+
     if time.time() - lastSent > 10:
         lastSent = time.time()
         return True
@@ -19,14 +19,14 @@ def check_stamp():
         return False
     
 def get_ball():
-    selectedBall = len(ballsConfig) - 1
+    selectedBall = ballsConfig[0]
 
-    for i in reversed(ballsConfig):
-        print(i)
-        if randint(1, 3) == 1:
-            selectedBall = i
+    for data in reversed(ballsConfig):
+        if randint(1, 2) == 1:
+            selectedBall = data
+            break
 
-    return ballsConfig[selectedBall]
+    return selectedBall
         
     
 

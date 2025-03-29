@@ -1,6 +1,7 @@
 import nextcord
 from nextcord.ext import commands
 from ballHandler import get_ball
+from dataManager import get_player_data, update_player_data
 
 class CatchModal(nextcord.ui.Modal):
     def __init__(self, ball, button, view):
@@ -17,7 +18,15 @@ class CatchModal(nextcord.ui.Modal):
 
     async def callback(self, interaction : nextcord.Interaction):
         if self.mdInput.value.lower() in self.ball["aliases"]:
+            ### HERE THE CATCH HAPPENS!
             self.button.disabled = True
+
+            data = get_player_data(interaction.user.id)
+            if data.get("balls") == None:
+                data["balls"] = []
+            data["balls"].append(self.ball["id"])
+            update_player_data(interaction.user.id, data)
+
             await interaction.response.edit_message(view=self.view)
             return await interaction.followup.send(f"{interaction.user.mention} you caught **{self.ball["displayName"]}** \n(This is a **new ball** that has been added to your collection!)")
             
