@@ -1,6 +1,6 @@
 import nextcord
 from nextcord.ext import commands
-from ballHandler import get_ball
+from ballHandler import get_ball, get_ball_by_id
 from dataManager import get_player_data, update_player_data
 
 class CatchModal(nextcord.ui.Modal):
@@ -53,7 +53,7 @@ class CatchView(nextcord.ui.View):
 class ListenedMessage:
     async def init(self, channel, ball = None):
         if ball != None:
-            self.ball = ball
+            self.ball = get_ball_by_id(int(ball))
         else:
             self.ball = get_ball()
 

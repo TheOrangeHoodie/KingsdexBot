@@ -23,7 +23,6 @@ def loadCogs():
 async def on_ready():
     print("Logged in as: " + bot.user.name)
 
-
 async def start():
     loadCogs()
 
