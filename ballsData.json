@@ -27,7 +27,7 @@
             "theorangehoodie",
             "hoodie"
         ],
-        "filePath": "./balls/Supreme.png",
+        "filePath": "./balls/Supreme.jpg",
         "emoji": "<:orangehoodie:1350831412655423598>",
         "displayName": "TheOrangeHoodie"
     },
@@ -61,5 +61,50 @@
         "filePath": "./balls/Admiral.png",
         "emoji": "<:admiral:1351227206717935706>",
         "displayName": "Admiral Podushka"
+    },
+    {
+        "id": 7,
+        "aliases": [
+            "nyx"
+        ],
+        "filePath": "./balls/Nyx.png",
+        "emoji": "<:nyx:1355841311609065585>",
+        "displayName": "Nyx"
+    },
+    {
+        "id": 8,
+        "aliases": [
+            "messito"
+        ],
+        "filePath": "./balls/Messito.png",
+        "emoji": "<:messito:1355841360724234331>",
+        "displayName": "Messito"
+    },
+    {
+        "id": 9,
+        "aliases": [
+            "reactor"
+        ],
+        "filePath": "./balls/Reactor.png",
+        "emoji": "<:reactor:1355841439686459450>",
+        "displayName": "Reactor"
+    },
+    {
+        "id": 10,
+        "aliases": [
+            "minus"
+        ],
+        "filePath": "./balls/Minus.png",
+        "emoji": "<:minus:1355841508246556742>",
+        "displayName": "Minus"
+    },
+    {
+        "id": 11,
+        "aliases": [
+            "karamele"
+        ],
+        "filePath": "./balls/Karamele.png",
+        "emoji": "<:caramele:1355841558393389189>",
+        "displayName": "Karamele"
     }
 ]
