@@ -153,7 +153,7 @@
             "the orange party"
         ],
         "filePath": "./balls/TheOrangeParty.png",
-        "emoji": "<:donerocracy:1377357709023772914>",
+        "emoji": "<:TOP:1377357768637288498>",
         "displayName": "TOP"
     },
     {
@@ -163,7 +163,7 @@
             "the color kings"
         ],
         "filePath": "./balls/TheColorKings.png",
-        "emoji": "<:socialcredit:1362447211111251968>",
+        "emoji": "<:TCK:1377696084385595432>",
         "displayName": "TCK"
     },
     {
@@ -173,7 +173,7 @@
             "brickoszo"
         ],
         "filePath": "./balls/Brick.png",
-        "emoji": ":bricks:",
+        "emoji": "<:Brick:1377696132293066804>",
         "displayName": "Brickoszo"
     },
     {
@@ -182,27 +182,25 @@
             "kam"
         ],
         "filePath": "./balls/Kam.png",
-        "emoji": ":green_circle:",
+        "emoji": "<:Kam:1377696198214815794>",
         "displayName": "Kam"
     },
     {
         "id": 20,
         "aliases": [
-            "losos",
-            "łosoś"
+            "losos"
         ],
         "filePath": "./balls/Losos.png",
-        "emoji": ":fish:",
+        "emoji": "<:Losos:1377696237800788028>",
         "displayName": "Losos"
     },
     {
         "id": 21,
         "aliases": [
-            "kotel",
-            "koteł"
+            "kotel"
         ],
         "filePath": "./balls/Kotel.png",
-        "emoji": ":cat:",
-        "displayName": "Koteł"
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
     }
 ]
