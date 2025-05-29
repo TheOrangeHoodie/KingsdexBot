@@ -19,8 +19,10 @@ class Inventory(commands.Cog):
         for ballData in allBalls:
             if ballData["id"] in ownedBalls:
                 ownedEmojis.append(ballData["emoji"])
+                ownedEmojis.append(" ")
             else:
                 notOwnedEmojis.append(ballData["emoji"])
+                notOwnedEmojis.append(" ")
 
         embed = nextcord.Embed(
             description=f"""

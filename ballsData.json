@@ -106,5 +106,32 @@
         "filePath": "./balls/Karamele.png",
         "emoji": "<:caramele:1355841558393389189>",
         "displayName": "Karamele"
+    },
+    {
+        "id": 12,
+        "aliases": [
+            "modstats"
+        ],
+        "filePath": "./balls/Modstats.png",
+        "emoji": "<:modstats:1363427632552870010>",
+        "displayName": "Modstats"
+    },
+    {
+        "id": 13,
+        "aliases": [
+            "mid"
+        ],
+        "filePath": "./balls/Mid.png",
+        "emoji": ":black_large_square:",
+        "displayName": "Mid"
+    },
+    {
+        "id": 14,
+        "aliases": [
+            "mutus"
+        ],
+        "filePath": "./balls/Mutus.jpg",
+        "emoji": ":flag_ro:",
+        "displayName": "Mutus"
     }
 ]
