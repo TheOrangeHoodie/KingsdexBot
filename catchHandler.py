@@ -38,7 +38,7 @@ class CatchModal(nextcord.ui.Modal):
             else:
                 return await interaction.followup.send(f"{interaction.user.mention} you caught **{self.ball["displayName"]}** `#{self.ball["id"]}`")
 
-        return await interaction.response.send_message("Wrong name!")
+        return await interaction.response.send_message(f"Wrong name! {interaction.user.mention}")
 
 class CatchView(nextcord.ui.View):
     def __init__(self, ball):
