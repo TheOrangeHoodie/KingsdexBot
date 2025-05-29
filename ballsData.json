@@ -25,6 +25,7 @@
             "supreme",
             "orange",
             "theorangehoodie",
+            "the orange hoodie",
             "hoodie"
         ],
         "filePath": "./balls/Supreme.jpg",
@@ -122,7 +123,7 @@
             "mid"
         ],
         "filePath": "./balls/Mid.png",
-        "emoji": ":black_large_square:",
+        "emoji": "<:mid:1375439076106309732>",
         "displayName": "Mid"
     },
     {
@@ -131,7 +132,77 @@
             "mutus"
         ],
         "filePath": "./balls/Mutus.jpg",
-        "emoji": ":flag_ro:",
+        "emoji": "<:mutus:1375439115658461194>",
         "displayName": "Mutus"
+    },
+    {
+        "id": 15,
+        "aliases": [
+            "dc",
+            "donerocracy",
+            "dönerocracy"
+        ],
+        "filePath": "./balls/Donnerocracy.png",
+        "emoji": "<:donerocracy:1377357709023772914>",
+        "displayName": "DC"
+    },
+    {
+        "id": 16,
+        "aliases": [
+            "top",
+            "the orange party"
+        ],
+        "filePath": "./balls/TheOrangeParty.png",
+        "emoji": "<:donerocracy:1377357709023772914>",
+        "displayName": "TOP"
+    },
+    {
+        "id": 17,
+        "aliases": [
+            "tck",
+            "the color kings"
+        ],
+        "filePath": "./balls/TheColorKings.png",
+        "emoji": "<:socialcredit:1362447211111251968>",
+        "displayName": "TCK"
+    },
+    {
+        "id": 18,
+        "aliases": [
+            "brick",
+            "brickoszo"
+        ],
+        "filePath": "./balls/Brick.png",
+        "emoji": ":bricks:",
+        "displayName": "Brickoszo"
+    },
+    {
+        "id": 19,
+        "aliases": [
+            "kam"
+        ],
+        "filePath": "./balls/Kam.png",
+        "emoji": ":green_circle:",
+        "displayName": "Kam"
+    },
+    {
+        "id": 20,
+        "aliases": [
+            "losos",
+            "łosoś"
+        ],
+        "filePath": "./balls/Losos.png",
+        "emoji": ":fish:",
+        "displayName": "Losos"
+    },
+    {
+        "id": 21,
+        "aliases": [
+            "kotel",
+            "koteł"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": ":cat:",
+        "displayName": "Koteł"
     }
 ]

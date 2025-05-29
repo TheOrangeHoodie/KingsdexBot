@@ -26,5 +26,6 @@ class Admin(commands.Cog):
 
         await listenedMessage.init(ctx.channel)
         
+        
 async def setup(bot):
     bot.add_cog(Admin(bot))
