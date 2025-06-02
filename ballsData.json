@@ -206,73 +206,87 @@
     {
         "id": 22,
         "aliases": [
-            "kotel"
+            "the children of navae",
+            "thechildrenofnavae",
+            "tcon"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/TCON.png",
+        "emoji": "<:TCON:1378662372562178159>",
+        "displayName": "The Children Of Navae"
     },
     {
         "id": 23,
         "aliases": [
-            "kotel"
+            "theorangekingdom",
+            "orangekingdom",
+            "orange kingdom",
+            "the orange kingdom",
+            "ok",
+            "tok"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/OrangeKingdom.png",
+        "emoji": "<:OK:1378662451909886043>",
+        "displayName": "Orange Kingdom"
     },
     {
         "id": 24,
         "aliases": [
-            "kotel"
+            "mmm",
+            "man man mercenaries"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/MMM.png",
+        "emoji": "<:MMM:1378662516292456531>",
+        "displayName": "Man Man Mercenaries"
     },
     {
         "id": 25,
         "aliases": [
-            "kotel"
+            "void navy",
+            "voidnavy",
+            "vn"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/VoidNavy.png",
+        "emoji": "VN",
+        "displayName": "Void Navy"
     },
     {
         "id": 26,
         "aliases": [
-            "kotel"
+            "worldshapers"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/Worldshapers.png",
+        "emoji": "WORLDSHAPERS",
+        "displayName": "Worldshapers"
     },
     {
         "id": 27,
         "aliases": [
-            "kotel"
+            "apple scavengers",
+            "scavengers",
+            "applescavengers"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/Scavengers.png",
+        "emoji": "APPLE",
+        "displayName": "Apple Scavengers"
     },
     {
         "id": 28,
         "aliases": [
-            "kotel"
+            "pear separatists",
+            "separatists",
+            "pearseparatists"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/Separatists.png",
+        "emoji": "PEAR",
+        "displayName": "Pear Separatists"
     },
     {
         "id": 29,
         "aliases": [
-            "kotel"
+            "eli"
         ],
-        "filePath": "./balls/Kotel.png",
-        "emoji": "<:Kotel:1377696280137957466>",
-        "displayName": "Kotel"
+        "filePath": "./balls/Eli.png",
+        "emoji": "ELI",
+        "displayName": "Eli"
     }
 ]
