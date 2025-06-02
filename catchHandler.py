@@ -3,6 +3,8 @@ from nextcord.ext import commands
 from ballHandler import get_ball, get_ball_by_id
 from dataManager import get_player_data, update_player_data
 
+GLOBAL_CATCH = {}
+
 class CatchModal(nextcord.ui.Modal):
     def __init__(self, ball, button, view):
         super().__init__(

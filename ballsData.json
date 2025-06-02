@@ -6,7 +6,7 @@
             "averagevol"
         ],
         "filePath": "./balls/Vol.png",
-        "emoji": "<:vol:1350831295936204831>",
+        "emoji": "<:vol:1378663831706009610>",
         "displayName": "Vol"
     },
     {
@@ -16,7 +16,7 @@
             "sleepisnow"
         ],
         "filePath": "./balls/Bored.png",
-        "emoji": "<:bored:1350831356812201984>",
+        "emoji": "<:bored:1378664896321032373>",
         "displayName": "Bored"
     },
     {
@@ -196,6 +196,78 @@
     },
     {
         "id": 21,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 22,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 23,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 24,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 25,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 26,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 27,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 28,
+        "aliases": [
+            "kotel"
+        ],
+        "filePath": "./balls/Kotel.png",
+        "emoji": "<:Kotel:1377696280137957466>",
+        "displayName": "Kotel"
+    },
+    {
+        "id": 29,
         "aliases": [
             "kotel"
         ],
