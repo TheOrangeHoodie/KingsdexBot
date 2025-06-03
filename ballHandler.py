@@ -12,7 +12,7 @@ lastSent = time.time()
 def check_stamp():
     global lastSent
 
-    if time.time() - lastSent > 60 * 5:
+    if time.time() - lastSent > 1:
         lastSent = time.time()
         return True
     else:
@@ -22,7 +22,7 @@ def get_ball():
     selectedBall = ballsConfig[0]
 
     for data in reversed(ballsConfig):
-        if randint(1, 3) == 1:
+        if randint(0, 100) > 75:
             selectedBall = data
             break
 
