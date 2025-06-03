@@ -246,17 +246,19 @@
             "vn"
         ],
         "filePath": "./balls/VoidNavy.png",
-        "emoji": "VN",
+        "emoji": "<:VN:1379173778227069030>",
         "displayName": "Void Navy"
     },
     {
         "id": 26,
         "aliases": [
-            "worldshapers"
+            "worldshapers",
+            "worldshapers order",
+            "worldshapersorder"
         ],
         "filePath": "./balls/Worldshapers.png",
-        "emoji": "WORLDSHAPERS",
-        "displayName": "Worldshapers"
+        "emoji": "<:worldshapers:1379173044622196776>",
+        "displayName": "Worldshapers Order"
     },
     {
         "id": 27,
@@ -266,7 +268,7 @@
             "applescavengers"
         ],
         "filePath": "./balls/Scavengers.png",
-        "emoji": "APPLE",
+        "emoji": "<:apple_scavengers:1379173089325355141>",
         "displayName": "Apple Scavengers"
     },
     {
@@ -277,7 +279,7 @@
             "pearseparatists"
         ],
         "filePath": "./balls/Separatists.png",
-        "emoji": "PEAR",
+        "emoji": "<:pear_separatists:1379173303121350706>",
         "displayName": "Pear Separatists"
     },
     {
@@ -286,7 +288,7 @@
             "eli"
         ],
         "filePath": "./balls/Eli.png",
-        "emoji": "ELI",
+        "emoji": "<:eli:1379173370180014090>",
         "displayName": "Eli"
     }
 ]
